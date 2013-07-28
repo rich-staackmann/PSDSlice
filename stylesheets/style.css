@@ -1,0 +1,138 @@
+#navigation {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.logo {
+  float: left;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.navbar {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.navbar li:first-child {
+  border-left: 1px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.navbar li {
+  float: left;
+  margin-right: 5px;
+  font-size: 1.5em;
+  border-right: 1px;
+  border-style: solid;
+  border-color: grey;
+  padding: 0px 5px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: rgb(0, 192, 255);
+  height: 335px;
+}
+
+.title {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.subtitle {
+  font-size: 1.75em;
+  margin-left: 20px;
+}
+
+.hero-image {
+  display: block;
+  float: right;
+  position: relative;
+  top: -145px;
+  right: 20px;
+}
+
+#content {
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+#news {
+  margin-top: 0px;
+  float: right;
+  background-color: rgb(68,68,68);
+  color: white;
+}
+
+#news h4 {
+  color: white;
+  text-align: center;
+}
+
+#news p {
+  text-align: center;
+}
+
+.first-image {
+  margin-left: 55px;
+}
+
+.update {
+  background-color: rgb(238,238,238);
+  height: 104px;
+}
+
+.update h3 {
+  margin-left: 20px;
+  margin-top: 42px;
+  color: rgb(51,51,51);
+}
+
+.input { 
+  margin-top: 42px;
+}
+
+#email {
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 40px;
+}
+
+#submit {
+  margin-left: 20px;
+}
+
+.copyright {
+  height: 104px;
+  color: white;
+  background-color: rgb(68,68,68);
+}
+
+.copyright p {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.navbar-footer {
+  float: right;
+  margin-top: -40px;
+}
+
+.navbar-footer li {
+  float: left;
+  margin-right: 20px;
+}
+
+.navbar-footer a {
+  text-decoration: none;
+  color: white;
+}
